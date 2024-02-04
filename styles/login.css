@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-image: url('../image/sunset.jpeg'); /* Ganti 'background.jpg' dengan nama file gambar latar belakang Anda */
+  background-image: url("./image/sunset.jpeg"); /* Ganti 'background.jpg' dengan nama file gambar latar belakang Anda */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -15,7 +15,7 @@ body {
   padding: 47px;
   border-radius: 0px;
   box-shadow: 0 0 15px rgba(3, 3, 3, 0.3);
-  background-image: url('../image/sunset.jpeg') 50px; 
+  background-image: url("./image/sunset.jpeg") 50px;
 }
 
 form {
@@ -26,7 +26,8 @@ form {
 h2 {
   text-align: center;
   margin-bottom: 20px;
-  text-shadow: 1px 1px 2px black, 0 2px 25px rgb(18, 20, 133), 0 0 5px rgb(10, 10, 78);
+  text-shadow: 1px 1px 2px black, 0 2px 25px rgb(18, 20, 133),
+    0 0 5px rgb(10, 10, 78);
   color: #ffffff;
 }
 
@@ -39,7 +40,6 @@ h2 {
   padding: 10px;
   border-radius: 0px;
   border: 1px solid #ccc;
-  
 }
 
 button {
@@ -52,10 +52,10 @@ button {
   cursor: pointer;
   margin-bottom: 10px;
   margin-top: 20px;
-  margin-left: 30px;background: transparent;
+  margin-left: 30px;
+  background: transparent;
   border: 3px aqua;
   transition: 2s ease-in-out;
- 
 }
 
 p {
@@ -64,7 +64,6 @@ p {
   font-size: 10px;
   margin-left: 8px;
   margin-top: -3%;
-  
 }
 
 button:hover {
@@ -85,7 +84,7 @@ button:hover {
   width: 100px;
   margin-bottom: 0%;
   margin-left: -161.2%;
-  background-image: url('../image/sunset.jpeg') 50px; 
+  background-image: url("./image/sunset.jpeg") 50px;
   background-position: center;
 }
 
@@ -94,20 +93,21 @@ h1 {
   width: 100%;
   justify-content: space-between;
   font-size: 30px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   text-align: justify;
   margin-top: -65%;
-  text-shadow: 1px 1px 2px black, 0 2px 25px rgb(18, 20, 133), 0 0 5px rgb(10, 10, 78);
+  text-shadow: 1px 1px 2px black, 0 2px 25px rgb(18, 20, 133),
+    0 0 5px rgb(10, 10, 78);
   white-space: nowrap;
 }
 
 .tag1 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: left;
   margin: 0;
   font-size: 11px;
   color: #ffffff;
-  text-shadow: 1px 1px 2px black, 0 2px 25px rgb(18, 20, 133), 0 0 5px rgb(10, 10, 78);
-  
+  text-shadow: 1px 1px 2px black, 0 2px 25px rgb(18, 20, 133),
+    0 0 5px rgb(10, 10, 78);
 }
